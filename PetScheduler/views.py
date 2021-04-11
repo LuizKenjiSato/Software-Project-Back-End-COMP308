@@ -221,6 +221,7 @@ class Booking(APIView):
             if booking_serializer.is_valid():
                 booking_serializer.save()
                 return Response('Appointment Booked', status=status.HTTP_201_CREATED)
+        return Response('This time is already booked', status=status.HTTP_400_BAD_REQUEST)
 
 
 class BookingTime(APIView):
@@ -264,8 +265,7 @@ class UserAppointment(APIView):
                 del x['clinic_id']
                 x['clinic_info'] = serializers.ClinicSerializerNoPassword(clinic_info).data
             return Response(appointments_serializer.data, status=status.HTTP_200_OK)
-        else:
-            return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class ClinicAppointment(APIView):
     def get(self, request, clinic_id, format=None):
@@ -282,5 +282,4 @@ class ClinicAppointment(APIView):
                 del x['owner_id']
                 x['pet_owner'] = serializers.UserSerializerPartial(user_info).data
             return Response(appointments_serializer.data, status=status.HTTP_200_OK)
-        else:
-            return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
