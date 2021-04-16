@@ -26,5 +26,7 @@ urlpatterns = [
     # Appointments
     path('user/appointment/<int:user_id>', views.UserAppointment.as_view(), name='User Appointments'),
     path('clinic/appointment/<int:clinic_id>', views.ClinicAppointment.as_view(), name='Clinic Appointments'),
-    
+
+    # Elastic Search
+    path('clinic/symptoms/', views.Symptoms.as_view(), name='Find Symptoms'),
 ]

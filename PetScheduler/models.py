@@ -44,7 +44,7 @@ class Clinic(models.Model):
     city = models.CharField(max_length=100, default='Toronto')
     postal_code = models.CharField(max_length=7, default='H0H0H0')
     password = models.CharField(max_length=250, default='password')
-    clinic_website = models.URLField(max_length=255, blank=True, null=True)
+    clinic_website = models.CharField(max_length=255, blank=True, null=True)
     specialities = ArrayField(models.CharField(
         max_length=100), blank=True, null=True)
     available_days = ArrayField(models.CharField(max_length=100))

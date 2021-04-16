@@ -40,7 +40,7 @@ class SimpleClinicSerializer(serializers.ModelSerializer):
     class Meta:
         model = mdls.Clinic
         fields = ['clinic_id', 'clinic_name', 'address', 'mobile_number', 'email',
-                  'city', 'postal_code', 'clinic_website', 'available_days', 'available_hours']
+                  'city', 'postal_code', 'password', 'clinic_website', 'available_days', 'available_hours']
 
 
 class BookingSerializer(serializers.ModelSerializer):

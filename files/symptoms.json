@@ -1,0 +1,204 @@
+{ "index" : { "_index": "symptoms", "_id": 1 } }
+{"Topic": "Abdomen - Painful", "URL": "https://pets.webmd.com/dogs/my-dog-swollen-belly"}
+{ "index" : { "_index": "symptoms", "_id": 2 } }
+{"Topic": "Abdomen - Swollen", "URL": "https://pets.webmd.com/dogs/my-dog-swollen-belly"}
+{ "index" : { "_index": "symptoms", "_id": 3 } }
+{"Topic": "Anorexia", "URL": "https://pets.webmd.com/dogs/guide/dog-not-eating-possible-causes-and-appetite-solutions#1"}
+{ "index" : { "_index": "symptoms", "_id": 4 } }
+{"Topic": "Bad Breath", "URL": "https://pets.webmd.com/features/pet-breath-sniff-test"}
+{ "index" : { "_index": "symptoms", "_id": 5 } }
+{"Topic": "Blindness", "URL": "https://pets.webmd.com/dogs/cataracts-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 6 } }
+{"Topic": "Bleeding - Wounds", "URL": "https://pets.webmd.com/first-aid-pet-emergencies"}
+{ "index" : { "_index": "symptoms", "_id": 7 } }
+{"Topic": "Blood in Stool", "URL": "https://pets.webmd.com/dogs/6-most-common-dog-health-problems"}
+{ "index" : { "_index": "symptoms", "_id": 8 } }
+{"Topic": "Bleeding From Ear", "URL": "https://pets.webmd.com/dogs/dog-discharge-ear#1"}
+{ "index" : { "_index": "symptoms", "_id": 9 } }
+{"Topic": "Blood in Urine", "URL": "https://pets.webmd.com/dogs/guide/lower-urinary-tract-problems-infections-dogs#1"}
+{ "index" : { "_index": "symptoms", "_id": 10 } }
+{"Topic": "Bleeding From Nose", "URL": "https://pets.webmd.com/dogs/my-dog-has-discharge-from-nose"}
+{ "index" : { "_index": "symptoms", "_id": 11 } }
+{"Topic": "Breathing - Abnormal", "URL": "https://pets.webmd.com/dogs/dog-panting-heavily#1"}
+{ "index" : { "_index": "symptoms", "_id": 12 } }
+{"Topic": "Bleeding From Paw", "URL": "https://pets.webmd.com/first-aid-pet-emergencies#1"}
+{ "index" : { "_index": "symptoms", "_id": 13 } }
+{"Topic": "Chewing or Licking at Skin", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-compulsive-scratching-licking-and-chewing#1"}
+{ "index" : { "_index": "symptoms", "_id": 14 } }
+{"Topic": "Constipation", "URL": "https://pets.webmd.com/dogs/dog-constipation-causes-treatment#1"}
+{ "index" : { "_index": "symptoms", "_id": 15 } }
+{"Topic": "Choking", "URL": "https://pets.webmd.com/first-aid-pet-emergencies#1"}
+{ "index" : { "_index": "symptoms", "_id": 16 } }
+{"Topic": "Coughing", "URL": "https://pets.webmd.com/dogs/coughing-dogs-causes#1"}
+{ "index" : { "_index": "symptoms", "_id": 17 } }
+{"Topic": "Circling", "URL": "https://pets.webmd.com/dogs/dog-falling-down#1"}
+{ "index" : { "_index": "symptoms", "_id": 18 } }
+{"Topic": "Dandruff", "URL": "https://pets.webmd.com/dogs/ss/slideshow-skin-problems-in-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 19 } }
+{"Topic": "Dehydration", "URL": "https://pets.webmd.com/hot-weather-tips-pet#1"}
+{ "index" : { "_index": "symptoms", "_id": 20 } }
+{"Topic": "Deafness", "URL": "https://pets.webmd.com/dogs/features/training-and-caring-for-a-deaf-dog#1"}
+{ "index" : { "_index": "symptoms", "_id": 21 } }
+{"Topic": "Diarrhea", "URL": "https://pets.webmd.com/dogs/6-most-common-dog-health-problems#1"}
+{ "index" : { "_index": "symptoms", "_id": 22 } }
+{"Topic": "Defecation - Painful", "URL": "https://pets.webmd.com/dogs/dog-cries-tries-defecate#1"}
+{ "index" : { "_index": "symptoms", "_id": 23 } }
+{"Topic": "Dizziness", "URL": "https://pets.webmd.com/dogs/dog-falling-down#1"}
+{ "index" : { "_index": "symptoms", "_id": 24 } }
+{"Topic": "Defecation - Straining", "URL": "https://pets.webmd.com/dogs/dog-cries-tries-defecate"}
+{ "index" : { "_index": "symptoms", "_id": 25 } }
+{"Topic": "Dragging Bottom", "URL": "https://pets.webmd.com/dogs/dog-dragging-bottom"}
+{ "index" : { "_index": "symptoms", "_id": 26 } }
+{"Topic": "Defecation - Too Much", "URL": "https://pets.webmd.com/dogs/my-dog-pooping-everywhere"}
+{ "index" : { "_index": "symptoms", "_id": 27 } }
+{"Topic": "Drooling", "URL": "https://pets.webmd.com/dogs/dog-drooling-salivary-gland-problems#1"}
+{ "index" : { "_index": "symptoms", "_id": 28 } }
+{"Topic": "Ears - Discharge ", "URL": "https://pets.webmd.com/dogs/dog-discharge-ear#1"}
+{ "index" : { "_index": "symptoms", "_id": 29 } }
+{"Topic": "Ears - Foul Odor", "URL": "https://pets.webmd.com/dogs/6-most-common-dog-health-problems#1"}
+{ "index" : { "_index": "symptoms", "_id": 30 } }
+{"Topic": "Ears - Head Shaking", "URL": "https://pets.webmd.com/dogs/6-most-common-dog-health-problems"}
+{ "index" : { "_index": "symptoms", "_id": 31 } }
+{"Topic": "Ears - Rubbing", "URL": "https://pets.webmd.com/dogs/6-most-common-dog-health-problems#1"}
+{ "index" : { "_index": "symptoms", "_id": 32 } }
+{"Topic": "Ears - Swollen", "URL": "https://pets.webmd.com/dogs/my-dog-swollen-ear"}
+{ "index" : { "_index": "symptoms", "_id": 33 } }
+{"Topic": "Eating - Grass", "URL": "https://pets.webmd.com/dogs/why-do-dogs-eat-grass"}
+{ "index" : { "_index": "symptoms", "_id": 34 } }
+{"Topic": "Eating - Refusal to Eat", "URL": "https://pets.webmd.com/dogs/guide/dog-not-eating-possible-causes-and-appetite-solutions"}
+{ "index" : { "_index": "symptoms", "_id": 35 } }
+{"Topic": "Eating - Regurgitation", "URL": "https://pets.webmd.com/dogs/vomiting-dogs-causes-treatment"}
+{ "index" : { "_index": "symptoms", "_id": 36 } }
+{"Topic": "Eating - Weight Gain", "URL": "https://pets.webmd.com/dogs/dog-gaining-weight"}
+{ "index" : { "_index": "symptoms", "_id": 37 } }
+{"Topic": "Eating Stool", "URL": "https://pets.webmd.com/dogs/ss/slideshow-is-my-dog-normal"}
+{ "index" : { "_index": "symptoms", "_id": 38 } }
+{"Topic": "Eyes - Bulging", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 39 } }
+{"Topic": "Eyes - Cloudy", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 40 } }
+{"Topic": "Eyes - Discharge", "URL": "https://pets.webmd.com/dogs/dog-discharge-from-eye"}
+{ "index" : { "_index": "symptoms", "_id": 41 } }
+{"Topic": "Eyes - Pupils Different Sizes", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 42 } }
+{"Topic": "Eyes - Red", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 43 } }
+{"Topic": "Eyes - Squinting", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 44 } }
+{"Topic": "Eyes - Tear Staining", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-tear-stains"}
+{ "index" : { "_index": "symptoms", "_id": 45 } }
+{"Topic": "Eyes - Third Eyelid", "URL": "https://pets.webmd.com/dogs/guide/eye-care-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 46 } }
+{"Topic": "Face - Swollen", "URL": "https://pets.webmd.com/dogs/my_dog_has_swollen_face"}
+{ "index" : { "_index": "symptoms", "_id": 47 } }
+{"Topic": "Falling Down", "URL": "https://pets.webmd.com/dogs/dog-falling-down"}
+{ "index" : { "_index": "symptoms", "_id": 48 } }
+{"Topic": "Fever", "URL": "https://pets.webmd.com/dogs/high-fever-in-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 49 } }
+{"Topic": "Gagging", "URL": "https://pets.webmd.com/first-aid-pet-emergencies"}
+{ "index" : { "_index": "symptoms", "_id": 50 } }
+{"Topic": "Gas", "URL": "https://pets.webmd.com/dogs/flatulence-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 51 } }
+{"Topic": "Hair Loss", "URL": "https://pets.webmd.com/dogs/dog-bald-spot"}
+{ "index" : { "_index": "symptoms", "_id": 52 } }
+{"Topic": "Head Tilt", "URL": "https://pets.webmd.com/dogs/dog-ear-infections"}
+{ "index" : { "_index": "symptoms", "_id": 53 } }
+{"Topic": "Heart Rate - Abnormal", "URL": "https://pets.webmd.com/dogs/congestive-heart-failure-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 54 } }
+{"Topic": "Heat", "URL": "https://pets.webmd.com/dogs/how-tell-if-dogs-heat"}
+{ "index" : { "_index": "symptoms", "_id": 55 } }
+{"Topic": "Hot Spot", "URL": "https://pets.webmd.com/dogs/what-hot-spots-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 56 } }
+{"Topic": "Incontinence - Urinary", "URL": "https://pets.webmd.com/dogs/urinary-incontinence-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 57 } }
+{"Topic": "Itching and Scratching", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-compulsive-scratching-licking-and-chewing"}
+{ "index" : { "_index": "symptoms", "_id": 58 } }
+{"Topic": "Leg - Swollen", "URL": "https://pets.webmd.com/dogs/dog-sprains-strains"}
+{ "index" : { "_index": "symptoms", "_id": 59 } }
+{"Topic": "Lethargy", "URL": "https://pets.webmd.com/dogs/my-dog-weak-lethargic"}
+{ "index" : { "_index": "symptoms", "_id": 60 } }
+{"Topic": "Licking or Chewing at Skin", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-compulsive-scratching-licking-and-chewing"}
+{ "index" : { "_index": "symptoms", "_id": 61 } }
+{"Topic": "Limping and Lameness", "URL": "https://pets.webmd.com/dogs/dog-sprains-strains"}
+{ "index" : { "_index": "symptoms", "_id": 62 } }
+{"Topic": "Losing Balance", "URL": "https://pets.webmd.com/dogs/dog-falling-down"}
+{ "index" : { "_index": "symptoms", "_id": 63 } }
+{"Topic": "Lumps, Bumps and Growths", "URL": "https://pets.webmd.com/dogs/dog-lumps-bumps-skin"}
+{ "index" : { "_index": "symptoms", "_id": 64 } }
+{"Topic": "Mouth - Bad Breath", "URL": "https://pets.webmd.com/dogs/guide/bad-breath-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 65 } }
+{"Topic": "Mouth - Foreign Object", "URL": "https://pets.webmd.com/first-aid-pet-emergencies"}
+{ "index" : { "_index": "symptoms", "_id": 66 } }
+{"Topic": "Mouth - Painful swallowing", "URL": "https://pets.webmd.com/dogs/features/dogs-teeth-toothaches-problems"}
+{ "index" : { "_index": "symptoms", "_id": 67 } }
+{"Topic": "Mouth - Smacking Lips", "URL": "https://pets.webmd.com/dogs/guide/tips-better-dental-health-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 68 } }
+{"Topic": "Mouth - Sore", "URL": "https://pets.webmd.com/dogs/features/dogs-teeth-toothaches-problems"}
+{ "index" : { "_index": "symptoms", "_id": 69 } }
+{"Topic": "Mouth Breathing", "URL": "https://pets.webmd.com/dogs/dog-panting-heavily"}
+{ "index" : { "_index": "symptoms", "_id": 70 } }
+{"Topic": "Nose - Bleeding", "URL": "https://pets.webmd.com/dogs/my-dog-has-discharge-from-nose"}
+{ "index" : { "_index": "symptoms", "_id": 71 } }
+{"Topic": "Nose - Discharge", "URL": "https://pets.webmd.com/dogs/my-dog-has-discharge-from-nose"}
+{ "index" : { "_index": "symptoms", "_id": 72 } }
+{"Topic": "Panting", "URL": "https://pets.webmd.com/dogs/dog-panting-heavily"}
+{ "index" : { "_index": "symptoms", "_id": 73 } }
+{"Topic": "Paws - Bleeding", "URL": "https://pets.webmd.com/dogs/guide/dig-emergency-care-first-aid"}
+{ "index" : { "_index": "symptoms", "_id": 74 } }
+{"Topic": "Poisoning", "URL": "https://pets.webmd.com/dogs/guide/top-10-dog-poisons"}
+{ "index" : { "_index": "symptoms", "_id": 75 } }
+{"Topic": "Pregnancy", "URL": "https://pets.webmd.com/dogs/signs-dog-pregnant"}
+{ "index" : { "_index": "symptoms", "_id": 76 } }
+{"Topic": "Regurgitation", "URL": "https://pets.webmd.com/dogs/vomiting-dogs-causes-treatment"}
+{ "index" : { "_index": "symptoms", "_id": 77 } }
+{"Topic": "Reverse Sneezing", "URL": "https://pets.webmd.com/dogs/ss/slideshow-is-my-dog-normal"}
+{ "index" : { "_index": "symptoms", "_id": 78 } }
+{"Topic": "Runny Nose", "URL": "https://pets.webmd.com/dogs/my-dog-has-discharge-from-nose"}
+{ "index" : { "_index": "symptoms", "_id": 79 } }
+{"Topic": "Scooting", "URL": "https://pets.webmd.com/dogs/dog-dragging-bottom"}
+{ "index" : { "_index": "symptoms", "_id": 80 } }
+{"Topic": "Scratching and Itching", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-compulsive-scratching-licking-and-chewing"}
+{ "index" : { "_index": "symptoms", "_id": 81 } }
+{"Topic": "Seizures", "URL": "https://pets.webmd.com/dogs/dog-seizure-disorders"}
+{ "index" : { "_index": "symptoms", "_id": 82 } }
+{"Topic": "Shedding", "URL": "https://pets.webmd.com/dogs/guide/grooming-dog"}
+{ "index" : { "_index": "symptoms", "_id": 83 } }
+{"Topic": "Shivering", "URL": "https://pets.webmd.com/dogs/my-dog-shivering-trembling"}
+{ "index" : { "_index": "symptoms", "_id": 84 } }
+{"Topic": "Skin - Licking and Chewing", "URL": "https://pets.webmd.com/dogs/guide/dogs-and-compulsive-scratching-licking-and-chewing"}
+{ "index" : { "_index": "symptoms", "_id": 85 } }
+{"Topic": "Skin - Lumps, bumps and growths", "URL": "https://pets.webmd.com/dogs/dog-lumps-bumps-skin"}
+{ "index" : { "_index": "symptoms", "_id": 86 } }
+{"Topic": "Sneezing", "URL": "https://pets.webmd.com/dogs/my-dog-has-discharge-from-nose"}
+{ "index" : { "_index": "symptoms", "_id": 87 } }
+{"Topic": "Staggering", "URL": "https://pets.webmd.com/dogs/dog-falling-down"}
+{ "index" : { "_index": "symptoms", "_id": 88 } }
+{"Topic": "Stool - Bloody", "URL": "https://pets.webmd.com/dogs/guide/dog-diarrhea-causes-treatment"}
+{ "index" : { "_index": "symptoms", "_id": 89 } }
+{"Topic": "Stool - Eating", "URL": "https://pets.webmd.com/dogs/ss/slideshow-is-my-dog-normal"}
+{ "index" : { "_index": "symptoms", "_id": 90 } }
+{"Topic": "Stool - Loose", "URL": "https://pets.webmd.com/dogs/guide/dog-diarrhea-causes-treatment"}
+{ "index" : { "_index": "symptoms", "_id": 91 } }
+{"Topic": "Stool - Painful", "URL": "https://pets.webmd.com/dogs/dog-cries-tries-defecate"}
+{ "index" : { "_index": "symptoms", "_id": 92 } }
+{"Topic": "Tail - Limp", "URL": "https://pets.webmd.com/dogs/dog-body-language"}
+{ "index" : { "_index": "symptoms", "_id": 93 } }
+{"Topic": "Thirst - Excessive", "URL": "https://pets.webmd.com/dogs/my-dog-always-thirsty"}
+{ "index" : { "_index": "symptoms", "_id": 94 } }
+{"Topic": "Trembling", "URL": "https://pets.webmd.com/dogs/my-dog-shivering-trembling"}
+{ "index" : { "_index": "symptoms", "_id": 95 } }
+{"Topic": "Urinary Incontinence", "URL": "https://pets.webmd.com/dogs/urinary-incontinence-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 96 } }
+{"Topic": "Urination - Frequent", "URL": "https://pets.webmd.com/dogs/urinary-incontinence-dogs"}
+{ "index" : { "_index": "symptoms", "_id": 97 } }
+{"Topic": "Urination - Painful", "URL": "https://pets.webmd.com/dogs/my-dog-cries-out-when-he-tries-urinate"}
+{ "index" : { "_index": "symptoms", "_id": 98 } }
+{"Topic": "Urination - Straining", "URL": "https://pets.webmd.com/dogs/my-dog-cries-out-when-he-tries-urinate"}
+{ "index" : { "_index": "symptoms", "_id": 99 } }
+{"Topic": "Vomiting", "URL": "https://pets.webmd.com/dogs/vomiting-dogs-causes-treatment"}
+{ "index" : { "_index": "symptoms", "_id": 100 } }
+{"Topic": "Watery Eye", "URL": "https://pets.webmd.com/dogs/dog-discharge-from-eye"}
+{ "index" : { "_index": "symptoms", "_id": 101 } }
+{"Topic": "Weight Gain", "URL": "https://pets.webmd.com/dogs/dog-gaining-weight"}
+{ "index" : { "_index": "symptoms", "_id": 102 } }
+{"Topic": "testing", "URL": "https://test.test.com"}

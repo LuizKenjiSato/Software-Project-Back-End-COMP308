@@ -5,9 +5,12 @@ from rest_framework.views import APIView
 
 import json
 
+import os
+import hashlib
+
 from . import models
 from . import serializers
-
+import requests
 # Clinic
 
 
@@ -19,9 +22,25 @@ class RegisterClinic(APIView):
         except Exception as err:
             tmp = request.body.decode("utf-8")
             data = json.loads(tmp)
+
+
+        
         if models.Clinic.objects.filter(email=data['email']).exists():
             return Response('An clinic wiht this email already exist', status.HTTP_403_FORBIDDEN)
         else:
+            salt = os.urandom(32)
+            hashed_pwd = hashlib.pbkdf2_hmac(
+                'sha256', # The hash digest algorithm for HMAC
+                data['password'].encode('utf-8'), # Convert the password to bytes
+                salt, # Provide the salt
+                100000 # It is recommended to use at least 100,000 iterations of SHA-256 
+            )
+            print(hashed_pwd)
+            ## Make sure all email are lower case = otherwise they might get in conflict with
+            data['email'] = data['email'].lower()
+            ## Convert bytes to hex to database storage
+            data['password'] = salt.hex() + hashed_pwd.hex()
+            print(data)
             if 'specialities' not in data or data['specialities'] == "":
                 clinic_serializer = serializers.SimpleClinicSerializer(
                     data=data)
@@ -44,9 +63,24 @@ class LoginClinic(APIView):
         except Exception as err:
             tmp = request.body.decode("utf-8")
             data = json.loads(tmp)
+
         try:
-            clinic_login = models.Clinic.objects.get(email=data['email'])
-            if data['password'] == clinic_login.password:
+            clinic_login = models.Clinic.objects.get(email=data['email'])    
+            clinic_password = clinic_login.password
+            ## Extract both salt and hash in hex
+            salt = clinic_password[:64]
+            current_hash = clinic_password[64:]
+            ## Convert Hex to Bytes
+            byte_salt = bytes.fromhex(salt)
+            byte_current_hash = bytes.fromhex(current_hash)
+            password_to_hash = hashlib.pbkdf2_hmac(
+                'sha256',
+                data.get('password').encode('utf-8'),
+                byte_salt,
+                100000
+            )
+        
+            if byte_current_hash == password_to_hash:
                 clinic_serializer = serializers.ClinicSerializerNoPassword(
                     clinic_login)
                 return Response(clinic_serializer.data, status=status.HTTP_200_OK)
@@ -164,6 +198,19 @@ class RegisterUser(APIView):
         if models.User.objects.filter(email=data['email']).exists():
             return Response('Account wiht this email already exist', status.HTTP_403_FORBIDDEN)
         else:
+            salt = os.urandom(32)
+            hashed_pwd = hashlib.pbkdf2_hmac(
+                'sha256', # The hash digest algorithm for HMAC
+                data['password'].encode('utf-8'), # Convert the password to bytes
+                salt, # Provide the salt
+                100000 # It is recommended to use at least 100,000 iterations of SHA-256 
+            )
+            print(hashed_pwd)
+            ## Make sure all email are lower case = otherwise they might get in conflict with
+            data['email'] = data['email'].lower()
+            ## Convert bytes to hex to database storage
+            data['password'] = salt.hex() + hashed_pwd.hex()
+            print(data)
             user_serializer = serializers.UserSerializer(data=data)
             if user_serializer.is_valid():
                 user_serializer.save()
@@ -183,7 +230,21 @@ class LoginUser(APIView):
             data = json.loads(tmp)
         try:
             user_login = models.User.objects.get(email=data['email'])
-            if data['password'] == user_login.password:
+            user_password = user_login.password
+            ## Extract both salt and hash in hex
+            salt = user_password[:64]
+            current_hash = user_password[64:]
+            ## Convert Hex to Bytes
+            byte_salt = bytes.fromhex(salt)
+            byte_current_hash = bytes.fromhex(current_hash)
+            password_to_hash = hashlib.pbkdf2_hmac(
+                'sha256',
+                data.get('password').encode('utf-8'),
+                byte_salt,
+                100000
+            )
+            
+            if byte_current_hash == password_to_hash:
                 user_serializer = serializers.UserSerializerPartial(user_login)
                 return Response(user_serializer.data, status=status.HTTP_200_OK)
             else:
@@ -247,8 +308,6 @@ class BookingTime(APIView):
                 print(err)
         return Response(clinic_serializer['available_hours'], status=status.HTTP_200_OK)
 
-# TODO LOGIN for user/clinic => add hash table
-
 # Appointments
 class UserAppointment(APIView):
     def get(self, request, user_id, format=None):
@@ -283,3 +342,32 @@ class ClinicAppointment(APIView):
                 x['pet_owner'] = serializers.UserSerializerPartial(user_info).data
             return Response(appointments_serializer.data, status=status.HTTP_200_OK)
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+class Symptoms(APIView):
+    def get(self, request, format=None):
+        data = request.GET
+        url = 'https://search-software-project-pn6qjbc5x2vzyxwdvgsipf6ava.ca-central-1.es.amazonaws.com/symptoms/_search'
+        data_request = {
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "prefix": {"Topic": data['symptom']}
+                            
+                        }
+                    ]
+                }
+            }
+        }
+        if len(data['symptom']) >= 1:
+            elastic_search_input = []
+            final_answer = []
+            request_all = requests.get(url, json=data_request)
+            elastic_search_input.append(request_all.json()['hits']['hits'])
+            for y in range(0, len(elastic_search_input[0])):
+                final_answer.append(elastic_search_input[0][y]['_source'])
+
+            print(len(final_answer))
+            return Response(final_answer, status=status.HTTP_200_OK)
+        else:
+            return Response([], status=status.HTTP_200_OK)

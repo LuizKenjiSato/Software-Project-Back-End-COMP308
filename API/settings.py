@@ -28,7 +28,7 @@ DEBUG = True
 CSRF_COOKIE_SECURE = False
 CORS_ORIGIN_ALLOW_ALL = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '2e87f7111ad6.ngrok.io', 'www.2e87f7111ad6.ngrok.io', 'de8af7fbd3af.ngrok.io', 'www.de8af7fbd3af.ngrok.io']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '2e87f7111ad6.ngrok.io', 'www.2e87f7111ad6.ngrok.io', 'de8af7fbd3af.ngrok.io', 'www.de8af7fbd3af.ngrok.io', '3.96.208.12', 'ec2-3-96-208-12.ca-central-1.compute.amazonaws.com']
 # ALLOWED_HOSTS = ['*']
 
 
@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'PetScheduler',
+        'NAME': 'petscheduler',
         'USER': 'postgres',
-        'PASSWORD': 'TorontoTaste416',
+        'PASSWORD': 'TorontoTaste416!',
         'HOST': '127.0.0.1',
         'PORT': '5432'
     }
